@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaslesVPN</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <fieldset class="container" id="signInContainer">
+        <form class="login" action="send.php" method="post">
+            <legend class="login-title">Sign In</legend>
+            <input type="text" name="name" id="name" pattern="[A-Za-zA-Яа-яЁё\s]+" placeholder="Enter Name" title="Name must contain only letters" required>
+            <input type="password" name="password" placeholder="Enter Password">
+            <input type="submit" value="Sign In">
+        </form>
+    </fieldset>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__wrapper">
+                <img src="./img/Logo.png" alt="LaslesVPN" class="header__logo">
+                <span class="logo__text">Lasles<span class="logo__text-two">VPN</span></span>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="index1.html" class="header__link">About</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="index2.html" class="header__link">Features</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="index3.html" class="header__link">Pricing</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="index4.html" class="header__link">Network</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="index5.html" class="header__link">Help</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#!" class="header__login" id="signInLink">Sign In</a>
+                <button class="header__but">Sign Up</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="network">
+        <h2 class="network__title">Huge Global Network of Fast VPN</h2>
+        <p class="network__subtitle">See <span class="network__logo">LaslesVPN</span> everywhere to make it easier for you when you move locations.</p>
+        <img src="./img/hugeglobal.png" alt="карта" class="network__img">
+        <div class="network__group">
+            <img src="./img/Netflix.png" alt="" class="network__group-img">
+            <img src="./img/Reddit.png" alt="" class="network__group-img">
+            <img src="./img/Amazon.png" alt="" class="network__group-img">
+            <img src="./img/Discord.png" alt="" class="network__group-img">
+            <img src="./img/Spotify.png" alt="" class="network__group-img">
+        </div>
+    </section>
+
+</div>
+</main>
+<script src="./js/script.js"></script>
