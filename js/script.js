@@ -18,12 +18,12 @@ function showReview(index) {
 }
 
 function showNextReview() {
-  nextIndex = (currentIndex + 1) % reviews.length;
+  nextIndex = (currentIndex + 1);
   showReview(nextIndex);
 }
 
 function showPrevReview() {
-  prevIndex = (currentIndex - 1 + reviews.length) % reviews.length;
+  prevIndex = (currentIndex - 1 + reviews.length);
   showReview(prevIndex);
 }
 
